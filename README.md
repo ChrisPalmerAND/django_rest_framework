@@ -12,11 +12,12 @@ Then install the requirements using:
 
 ```pip3 install requirements.txt```
 
-After that, run the following command to set up your database. 
+After that, run the following command to set up your database:
+
 ```python3 manage.py migrate```
 
 
-Set up an 'env.py' file and ensure it's in the git ignore.
+Set up an 'env.py' file at the top level and ensure it's in the git ignore.
 Add the following code to the env.py - make sure you change the secret key.
 
 ```import os 
