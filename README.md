@@ -1,7 +1,5 @@
 # django_rest_framework
-To use this boilerplae:
-
-
+### To use this boilerplate:
 
 Created a blank repository. 
 CD into you repository in your chosen IDE.
@@ -33,7 +31,19 @@ if os.path.exists('env.py'):
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 ```
 
-If you would like to create this from scratch, then this is the tutorial I used.
+You will need to create yourself a superuser:
+
+```python3 manage.py createsuperuser```
+
+Fill in your details and then once you have a superuser, run the app using:
+
+```python3 manage.py runserver```
+
+Once the local host has opened, naviagate to 'localhostpath'/admin. This will take you to the content management system of django where you CRUD data. 
+
+
+
+### If you would like to create this from scratch, then this is the tutorial I used.
 Follow tutorial: 
 https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c
 
