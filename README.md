@@ -8,7 +8,7 @@ Use ```git clone https://github.com/ChrisPalmerAND/django_rest_framework.git```
 
 Then install the requirements using:
 
-```pip3 install requirements.txt```
+```pip3 install -r requirements.txt```
 
 After that, run the following command to set up your database:
 
@@ -18,7 +18,8 @@ After that, run the following command to set up your database:
 Set up an 'env.py' file at the top level and ensure it's in the git ignore.
 Add the following code to the env.py - make sure you change the secret key.
 
-```import os 
+```
+  import os 
   os.environ['SECRET_KEY'] = 'yoursecretkey'
 ```
 
