@@ -1,5 +1,6 @@
 # django_rest_framework
 
+
 Created a blank repository. 
 
 ```django-admin startproject my_rest_api . ```
@@ -22,4 +23,6 @@ if os.path.exists('env.py'):
 
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 ```
+Follow tutorial: 
+https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c
 
